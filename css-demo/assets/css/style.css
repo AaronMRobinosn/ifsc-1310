@@ -1,4 +1,4 @@
- /* #
+/* #
  Solid Blue #2835EB
  Dark Teal #3EA399
  Lime Green #1CD93F
@@ -89,8 +89,6 @@ table th{
     padding:10px;
 }
 
-
-
 body{
     font-family: 'Noto Sans', sans-serif;
     margin:0;
@@ -143,9 +141,11 @@ header.primary h2{
      flex-direction: row;
      justify-content: space-between;
  }
+ 
  header.primary nav ul li{
      list-style-type: none;
  }
+ 
  header.primary nav ul li a{
      color:#ffffff;
      text-decoration:none;
@@ -207,7 +207,7 @@ articl.post .post-meta{
  article.post img{
      border-radius: 150px;
  }
- 
+
  article.post a:link, article.post a:visited{
      color:#AD6C7F;
  }
@@ -215,7 +215,7 @@ articl.post .post-meta{
 article.post a:hover, article.post a:active{
      text-decoration:none;
  }
-
+ 
 aside[role="complementary"]{
 background-color: #2D7A70;
 color:#ffffff;
