@@ -25,6 +25,24 @@ body{
     font-size: 2.5rem;
 }
 
+.container h2{
+    color:#B37E19;
+    font-size: 1.5rem;
+}
+
 .container ul{
     font-size: 1.5rem;
 }
+
+.container ul li{
+    font-size: 1.5rem;
+    color:#B37E19;
+}
+
+.container ul a:link, .container a:active{
+     text-decoration: none;
+ }
+
+ .container ul a:link, .container a:visited{
+     color:#B38864;
+ }
