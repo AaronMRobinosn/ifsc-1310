@@ -1,15 +1,30 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+.container{
+    width:70vw;
+    margin: 40px auto;
+    max-width: 960px;
+}
+
 body{
     font-family: 'Noto Serif', serif;
     margin:0;
-    background-color: #9FF07A; 
+    background-color: #D2EAB4; 
 }
 
-h1{
-    color:#1C1438;
+.container h1{
+    color:#B37E19;
     text-align: center;
     font-size: 2.5rem;
 }
 
-ul{
+.container ul{
     font-size: 1.5rem;
 }
